@@ -3,7 +3,7 @@ title: "Projects"
 ---
 
 ## Project 1
-
+This first project was from a visualization course. This dashboard reflects ways to visualize the data I analyzed including plots, histograms, and maps.
 ## Project 2
 
 ## Project 3
