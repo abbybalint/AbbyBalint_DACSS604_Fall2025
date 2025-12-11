@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I attended UMass Amherst for my Bachelor’s in Communication and Sociology. My primary areas of interest were media literacy, politics and social justice. I am now in my final year of the DACSS program and have continued having these same areas of interest in my research as a part of this program. After my undergraduate, I began a career in primary quantitative Market Research. I have previously worked at Kantar and the Harris Poll. Currently, I lead a team at 451 Research, a part of S&P Global. My team handles the survey operations supporting the 451 Research agenda, covering topics like datacenters, IT infrastructure, cloud computing, customer experience, and more. My experience lies in survey writing, programming, hosting, and analysis using tools like Qualtrics and SPSS among others. My goals in the DACSS program are to gain more technical experience that I can use in my role for data analysis.\nThanks for checking out my web site!"
+  },
+  {
+    "objectID": "index.html#education-and-experience",
+    "href": "index.html#education-and-experience",
+    "title": "About Me",
+    "section": "",
+    "text": "I attended UMass Amherst for my Bachelor’s in Communication and Sociology. My primary areas of interest were media literacy, politics and social justice. I am now in my final year of the DACSS program and have continued having these same areas of interest in my research as a part of this program. After my undergraduate, I began a career in primary quantitative Market Research. I have previously worked at Kantar and the Harris Poll. Currently, I lead a team at 451 Research, a part of S&P Global. My team handles the survey operations supporting the 451 Research agenda, covering topics like datacenters, IT infrastructure, cloud computing, customer experience, and more. My experience lies in survey writing, programming, hosting, and analysis using tools like Qualtrics and SPSS among others. My goals in the DACSS program are to gain more technical experience that I can use in my role for data analysis."
+  },
+  {
     "objectID": "projects.html#project-2",
     "href": "projects.html#project-2",
     "title": "Projects",
@@ -12,12 +26,5 @@
     "title": "Projects",
     "section": "Project 3",
     "text": "Project 3"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Thanks for checking out my web site!"
   }
 ]
