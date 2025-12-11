@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+    resources:
+    - projectex/**
   
 website:
   title: "Abigail Balint's DACSS 604 Website"
@@ -24,4 +26,3 @@ format:
     toc: true
 
 editor: source
-

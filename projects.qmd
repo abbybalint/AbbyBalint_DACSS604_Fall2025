@@ -6,5 +6,5 @@ title: "Projects"
 
 This  project was from a visualization course. This dashboard reflects ways to visualize the data I analyzed including plots, histograms, and maps. I used data from a survey about jobs in data science to create these visuals. For example, I was able to show how salary ranges for data science jobs vary around the world, or what percentage of jobs were remote vs in person through the years.
 
-[ProjectExample](projectexample.html)
+[ProjectExample](projectex/projectex.html)
 
