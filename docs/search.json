@@ -18,20 +18,13 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This first project was from a visualization course. This dashboard reflects ways to visualize the data I analyzed including plots, histograms, and maps. ## Project 2"
+    "text": "This project was from a visualization course. This dashboard reflects ways to visualize the data I analyzed including plots, histograms, and maps. I used data from a survey about jobs in data science to create these visuals. For example, I was able to show how salary ranges for data science jobs vary around the world, or what percentage of jobs were remote vs in person through the years.\nProjectExample"
   },
   {
-    "objectID": "projects.html#project-1",
-    "href": "projects.html#project-1",
+    "objectID": "projects.html#project-example",
+    "href": "projects.html#project-example",
     "title": "Projects",
     "section": "",
-    "text": "This first project was from a visualization course. This dashboard reflects ways to visualize the data I analyzed including plots, histograms, and maps. ## Project 2"
-  },
-  {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3"
+    "text": "This project was from a visualization course. This dashboard reflects ways to visualize the data I analyzed including plots, histograms, and maps. I used data from a survey about jobs in data science to create these visuals. For example, I was able to show how salary ranges for data science jobs vary around the world, or what percentage of jobs were remote vs in person through the years.\nProjectExample"
   }
 ]
