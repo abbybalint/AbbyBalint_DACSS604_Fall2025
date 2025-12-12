@@ -14,6 +14,7 @@ I attended UMass Amherst for my Bachelor's in Communication and Sociology. My pr
 
 [(Outdated) Resume](projectex/oldresume.pdf)
 
+[Flex dashboard example](docs/flexdashboard.html)
 
 :::
 
