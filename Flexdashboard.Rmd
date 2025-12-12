@@ -1,0 +1,77 @@
+---
+title: "Abigail Balint - Flex Dashboard Example 604"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(ggplot2)
+library(dplyr)
+```
+
+
+
+```{r}
+data <- read.csv("695omnibus.csv")
+data <- data[-c(2, 3, 4), ]
+data <- data %>%
+  filter(
+    balint_stress != "How often do you experience stress related to personal finances?",
+    balint_stress != "")
+
+```
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ggplot(data, aes(x = balint_stress)) +
+  geom_bar(fill = "purple") +
+  labs(
+    title = "Stress Levels Related to Personal Finance",
+    x = "Stress Level",
+    y = "Count",
+    caption = "Source: DACSS 695 Omnibus Survey 2024"
+  ) +
+  theme_minimal()
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ggplot(data, aes(x = dinsmore_mh)) +
+  geom_bar(fill = "purple") +
+  labs(
+    title = "Overall Mental Health Rating",
+    x = "Mental Health",
+    y = "Count",
+    caption = "Source: DACSS 695 Omnibus Survey 2024"
+  ) +
+  theme_minimal()
+```
+
+### Chart C
+
+```{r}
+
+ggplot(data, aes(x = gomez_dinsmore_ad_1)) +
+  geom_bar(fill = "purple") +
+  labs(
+    title = "Agree or Disagree - Handle Stress Well",
+    x = "Handle Stress Well",
+    y = "Count",
+    caption = "Source: DACSS 695 Omnibus Survey 2024"
+  ) +
+  theme_minimal()
+```
+
