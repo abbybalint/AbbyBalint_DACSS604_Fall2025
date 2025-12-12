@@ -31,7 +31,12 @@ Column {data-width=650}
 
 ### Chart A
 
+textOutput("These charts shows how respondents rated their stress related to personal finance, overall mental health, and how they handle stress in their survey responses.")
+
 ```{r}
+
+
+
 ggplot(data, aes(x = balint_stress)) +
   geom_bar(fill = "purple") +
   labs(
@@ -48,6 +53,7 @@ Column {data-width=350}
 
 ### Chart B
 
+
 ```{r}
 ggplot(data, aes(x = dinsmore_mh)) +
   geom_bar(fill = "purple") +
@@ -60,18 +66,7 @@ ggplot(data, aes(x = dinsmore_mh)) +
   theme_minimal()
 ```
 
-### Chart C
+### Description
 
-```{r}
-
-ggplot(data, aes(x = gomez_dinsmore_ad_1)) +
-  geom_bar(fill = "purple") +
-  labs(
-    title = "Agree or Disagree - Handle Stress Well",
-    x = "Handle Stress Well",
-    y = "Count",
-    caption = "Source: DACSS 695 Omnibus Survey 2024"
-  ) +
-  theme_minimal()
-```
+These charts shows how respondents rated their stress related to personal finance and their overall mental health rating in their survey responses
 
